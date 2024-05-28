@@ -9,8 +9,8 @@ if hasattr(sys, 'frozen'):
 from PyQt5 import QtCore
 from view.login_window import LoginWindow
 from PyQt5.QtWidgets import QApplication
-
 if __name__ == '__main__':
+
     QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling) # 自适应分辨率
     app = QApplication(sys.argv)  # 创建QT Application对象
     win = LoginWindow()           # 创建登录窗口

@@ -4,8 +4,8 @@
 
 QWidget{
     /*background-color: rgb(255, 255, 255);*/
-    background-color:#D1EEEE;
-    /* background-color:#E6E6FA;*/
+    background-color:	#F0F8FF;
+    /* background-color:#EDEDED;登陆界面密码背景*/
 
 }
 
@@ -16,11 +16,11 @@ QWidget:focus{
 QPushButton[class="Aqua"] {
     border-radius: 4px;
     height: 30px;
-    background-color: #3bafda;
+    background-color: 	#4169E1;
 }
 
 QPushButton:hover[class="Aqua"] {
-    background-color: #4fc1e9;
+    background-color: #4169E1;
 }
 
 QPushButton:pressed[class="Aqua"] {
@@ -29,12 +29,12 @@ QPushButton:pressed[class="Aqua"] {
     fx: 0.5,
     fy: 0.5,
     radius: 1.5,
-    stop: 0.2 #4fc1e9,
-    stop: 0.8 #3bafda);
+    stop: 0.2 	#FFFFFF,
+    stop: 0.8 		#FFFFFF);
 }
 
 QLineEdit {
-    border: 1px solid #aab2bd;
+    border: 1px solid 	#0000A8;
     border-radius: 4px;
     font-size: 12px;
     padding: 5px 8px;
@@ -42,12 +42,12 @@ QLineEdit {
 }
 
 QLineEdit:focus {
-    border: 1px solid #3bafda;
+    border: 1px solid 	#FF4500;
 }
 
 /*QComboBox下拉框*/
 QComboBox {
-    border: 1px solid #aab2bd;
+    border: 1px solid #0000A8;
     border-radius: 4px;
     font-size: 12px;
     padding: 3px 5px;
@@ -64,33 +64,33 @@ QComboBox::down-arrow {
 }
 
 QComboBox::!editable:on {
-    border: 1px solid #3bafda;
+    border: 1px solid #0000A8;
 }
 
 QComboBox QAbstractItemView{
-    border: 2px solid #e6e9ed;
+    border: 2px solid 	#0000A8;
     outline: none;
 }
 
 QComboBox QAbstractItemView::item{
     height: 30px;
-    border-bottom: 1px solid #e6e9ed;
+    border-bottom: 1px solid #0000A8;
 }
 
 QComboBox QAbstractItemView::item:hover{
-    background-color: #3bafda;
-    color: #FFFFFF;
+    background-color: #FF0000;
+    color: #FFFF74;
 }
 
 QComboBox QAbstractItemView::item:selected{
-    background-color: #3bafda;
-    color: #FFFFFF;
+    background-color: #FF0000;
+    color: #FFFF74;
 }
 
 /*QListWidget,QListView*/
 QListWidget,QListView {
     font: 14pt;
-    border: 1px solid #ccd1d9;
+    border: 1px solid #FFFFFF;
     outline: none;
     padding: 0;
 }
@@ -98,18 +98,18 @@ QListWidget,QListView {
 QListWidget::item,QListView::item {
     height: 45px;
     padding-left: 5px;
-    border-bottom: 1px solid #e6e9ed;
+    border-bottom: 1px solid #FFFFFF;
     font-size:20px;
 }
 
 QListWidget::item:hover,QListView::item:hover{
-    background-color: #3bafda;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 QListWidget::item:selected,QListView::item:selected{
-    background-color: #3bafda;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 /*QTableWidget,QTableView*/
@@ -123,7 +123,7 @@ QHeaderView{
 QHeaderView::section{
     height: 40px;
     border: 0 solid rgba(255, 255, 255, 0);
-    background-color:#d1eeee;
+    background-color:#6AAAFD;
     outline: none;
 }
 
@@ -131,8 +131,8 @@ QTableWidget,QTableView{
     border: 1px solid #ccd1d9;
     alternate-background-color: #f1f2f6;
     /*background-color: #fff;*/
-    background-color:#ecf8f8;
-    selection-background-color : #3bafda;
+    background-color:	#F0F8FF;
+    selection-background-color : #99CCFF;
     font-size:16px;
 }
 
@@ -144,14 +144,14 @@ QTabWidget{
 
 QTabWidget::pane { /* The tab widget frame */
     border: none;
-    background-color: #fff;
+    background-color: #FFFFFF;
     border-radius: 3px;
     border-top-left-radius: 0;
 }
 
 QTabBar::tab {
     padding: 8px 30px;
-    background-color: #fff;
+    background-color: #FFFFFF;
 }
 
 QTabBar::tab:first {
@@ -159,7 +159,8 @@ QTabBar::tab:first {
 }
 
 QTabBar::tab:!selected {
-    border-left: 1px solid #ccd1d9;
-    background-color: #e6e9ed;
+    border-left: 1px solid #FFFFFF;
+    background-color: #00008B;
+    color:#FFFFFF;
 }
 

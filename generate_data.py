@@ -5,15 +5,10 @@
 import pymysql
 import traceback
 
-# host = 'tpe0.clusters.zeabur.com' # 127.0.0.1
-# port = 30872
-# user = 'root'
-# password = 'y498g30fkoN6'  # 数据库密码
-
-host = 'localhost'
+host = 'localhost' # 127.0.0.1
 port = 3306
 user = 'root'
-password = '123456'  # 数据库密码
+password = 'wxt2003918'  # 数据库密码
 
 # 手动输入参数方式
 # print('Starting the create database operation, please enter the information required for the database.')

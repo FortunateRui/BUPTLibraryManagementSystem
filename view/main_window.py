@@ -32,7 +32,7 @@ class MainWindow(Ui_MainWindow, QMainWindow):
         self.pushButton.setMinimumWidth(60)
         self.setStyleSheet(SYS_STYLE)
         self.setWindowIcon(QIcon(APP_ICON))
-        self.setWindowTitle('GCC图书管理系统')
+        self.setWindowTitle('BUPT图书管理系统')
         self.listWidget.setCurrentRow(0)#默认选中当前为主页
         self.current_username_label.setText(self.username)
         self.current_role_label.setText(self.role)
