@@ -1,0 +1,120 @@
+# anaconda-client==1.7.2
+# anaconda-navigator==2.0.3
+anyio
+argon2-cffi
+async-generator
+attrs
+Babel
+backcall
+backports.functools-lru-cache
+backports.tempfile
+backports.weakref==1.0.post1
+beautifulsoup4
+bleach
+brotlipy==0.7.0
+certifi==2021.5.30
+cffi
+chardet
+# clyent==1.2.2
+colorama
+# conda==4.10.1
+# conda-build==3.21.4
+# conda-content-trust
+# conda-package-handling
+# conda-repo-cli
+# conda-token
+# conda-verify==3.4.2
+cryptography
+decorator
+defusedxml
+entrypoints==0.3
+filelock
+future==0.18.2
+glob2
+idna
+importlib-metadata
+ipykernel
+ipython
+ipython-genutils
+ipywidgets
+jedi==0.17.0
+jieba==0.42.1
+Jinja2
+json5==0.9.5
+jsonschema
+jupyter-client
+jupyter-core
+jupyter-packaging
+jupyter-server
+jupyterlab
+jupyterlab-pygments
+jupyterlab-server
+jupyterlab-widgets
+jupyterthemes==0.20.0
+lesscpy==0.14.0
+libarchive-c
+MarkupSafe
+# menuinst==1.4.16
+mistune==0.8.4
+# navigator-updater==0.2.1
+nbclassic
+nbclient
+nbconvert
+nbformat
+nest-asyncio
+notebook
+olefile==0.46
+packaging
+pandocfilters
+parso
+pickleshare
+Pillow
+pkginfo==1.7.0
+prometheus-client
+prompt-toolkit
+psutil
+pycosat==0.6.3
+pycparser
+Pygments
+PyMySQL
+pyOpenSSL
+pyparsing
+# PyQt5==5.15.4
+PyQt5
+# pyqt5-plugins==5.15.4.2.2
+# PyQt5-Qt5==5.15.2
+# PyQt5-sip==12.9.0
+# PyQt5-stubs==5.15.2.0
+# pyqt5-tools==5.15.4.3.2
+pyrsistent
+PySocks
+python-dateutil
+python-dotenv==0.17.1
+pytz
+# pywin32==227
+pywinpty==0.5.7
+# PyYAML==5.4.1
+# pyzmq==20.0.0
+# qt5-applications==5.15.2.2.2
+# qt5-tools==5.15.2.1.2
+# QtPy==1.9.0
+requests
+# ruamel-yaml-conda
+Send2Trash
+# sip==4.19.13
+six
+sniffio
+soupsieve
+terminado==0.9.4
+testpath
+tornado
+tqdm
+traitlets
+urllib3
+wcwidth
+webencodings==0.5.1
+widgetsnbextension==4.0.10
+win-inet-pton
+wincertstore==0.2
+xmltodict==0.12.0
+zipp
