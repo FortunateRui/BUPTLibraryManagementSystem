@@ -4,11 +4,16 @@
 注意事项：在运行本文件之前确保已启动了Mysql服务，并且已成功运行过generate_data.py文件
 """
 import sys, os
-if hasattr(sys, 'frozen'):
-    os.environ['PATH'] = sys.__MEIPASS + ";" + os.environ['PATH']
 from PyQt5 import QtCore
 from view.login_window import LoginWindow
 from PyQt5.QtWidgets import QApplication
+
+
+# 检查sys模块是否有frozen属性，如果有，说明程序是被打包成可执行文件的。
+# 在这种情况下，更新PATH环境变量，将打包目录添加到PATH中。
+if hasattr(sys, 'frozen'):
+    os.environ['PATH'] = sys.__MEIPASS + ";" + os.environ['PATH']
+
 
 if __name__ == '__main__':
     QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling) # 自适应分辨率
