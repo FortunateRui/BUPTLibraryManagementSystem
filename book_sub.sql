@@ -13,14 +13,6 @@
 
  Date: 15/11/2023 20:34:24
 */
--- 删除数据库 book，如果存在
-DROP DATABASE IF EXISTS book_sub;
-
--- 创建数据库 book
-CREATE DATABASE book_sub;
-
--- 选择数据库 book
-USE book_sub;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
