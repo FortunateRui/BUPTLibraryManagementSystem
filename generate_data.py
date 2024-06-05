@@ -8,8 +8,8 @@ import traceback
 host = 'localhost' # 127.0.0.1
 port = 3306
 user = 'root'
-password = 'wxt2003918'  # 数据库密码
-
+password = '123456'  # 数据库密码
+print("generate_data.py被调用")
 # 手动输入参数方式
 # print('Starting the create database operation, please enter the information required for the database.')
 # print('------------------------------------')

@@ -9,8 +9,8 @@ pip install -r requirements.txt
 ## 运行
 
 - 确保本机启动了MYSQL服务
-- 导入`book.sql`和`book_sub.sql`到数据库
-- 修改`generate_data.py`的用户名和密码并运行该文件
+- 修改`generate_data.py`的用户名和密码
+- 单独运行`generate_data.py`以导入`book.sql`和`book_sub.sql`到数据库
 - 修改`util/dbutil.py`第13行的用户名和密码并运行该文件
 - 运行`main.py`
 
